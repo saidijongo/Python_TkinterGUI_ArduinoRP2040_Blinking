@@ -38,4 +38,3 @@ chkBtn_Blink.grid(row=0, column=2)
 
 root.geometry("300x100")
 root.mainloop()
-
