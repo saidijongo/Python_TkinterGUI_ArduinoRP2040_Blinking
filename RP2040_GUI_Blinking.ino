@@ -17,7 +17,7 @@ void loop() {
       digitalWrite(LED_BUILTIN, LOW);
     }
     
-    if (command == "blink") {
+    if (command == "blinking") {
       for (int i = 0; i < 60; i++) {
         delay(150);
         digitalWrite(LED_BUILTIN, HIGH);
